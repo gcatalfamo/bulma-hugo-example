@@ -1,0 +1,15 @@
+enable : true
+#bgImage: images/slider/hero-area.jpg
+bgStyle: is-dark is-small
+navStyle: is-mobile is-hidden-mobile
+txtColor: has-text-white-bis
+
+counterItem:
+  - count: 10
+    label: ten
+  - count: 100
+    label: hundred
+  - count: 1000
+    label: thousand
+  - count: 10000
+    label: ten thousand

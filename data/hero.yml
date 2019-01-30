@@ -1,0 +1,14 @@
+enable : true
+bgImage: images/slider/hero-area.jpg
+#bgStyle: is-warning is-small is-bold
+txtColor: has-text-white-bis
+heading: Experience the new reality
+content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+button:
+  - btnText: Outlined
+    btnStyle: is-light is-outlined
+    btnURL: #
+
+  - btnText: Explore Us
+    btnStyle: is-warning
+    btnURL: #

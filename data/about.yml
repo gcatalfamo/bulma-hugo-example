@@ -1,0 +1,43 @@
+enable : true
+item : 
+- id : 1
+  stripeColor: is-primary
+  stripe: NEW
+  image: https://picsum.photos/600/300/?random
+  title : title 1
+  content : UNO Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  footerColor: has-background-info
+  footer:
+    - text: Click
+      textColor: has-text-white-bis
+      link: #
+
+    - text: Clack
+      textColor: has-text-warning
+      link: #
+
+- id : 2
+  stripeColor: is-danger
+  stripe: SOLD OUT
+  image: https://picsum.photos/600/300/?random
+  title : title 2
+  content : DUE Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  tags:
+    - tagColor: is-info
+      tagText: Tag 1
+
+    - tagColor: is-warning
+      tagText: Tag 2
+
+- id : 3
+  image: https://picsum.photos/600/300/?random
+  title : title 3
+  content : TRE Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  tags:
+    - tagColor: is-dark
+      tagText: Tag 3
+  footerColor: is-light
+  footer:
+    - bgColor: is-light
+      text: Clock
+      link: #

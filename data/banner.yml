@@ -1,0 +1,4 @@
+enable : true
+bannerTxt: This is a banner for announcements!
+bannerTag: NEW
+bannerTagCol: is-info

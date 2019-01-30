@@ -1,0 +1,22 @@
+enable : true
+sectionStyle: is-light
+image : images/about/about-business-man.jpg
+supertitle: Supertitle
+title : Title Title
+subtitle : Subtitle Subtitle Subtitle Subtitle Subtitle Subtitle
+button : button text
+buttonStyle: is-medium is-info is-outlined
+isButtonIcon: true
+buttonIcon: fab fa-algolia fa-pulse
+
+# SERVE PARAMETRIZZARE PER PIU' BLOCCHI
+
+#NON USATI AL MOMENTO
+aboutItem : 
+  - icon : tf-circle-compass
+    title : SEO Optimized
+    content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores 
+    
+  - icon : tf-hotairballoon
+    title : Easy Customization
+    content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores 
