@@ -1,6 +1,6 @@
 #CONFIG FILE
 #hugo config | grep emoji
-baseURL = "http://example.org/"
+baseURL = "https://gcatalfamo.github.io/bulma-hugo-example/public/"
 title = "Full website Bulma template for Hugo"
 theme = "bulma-hugo"
 languageCode = "en-us"
