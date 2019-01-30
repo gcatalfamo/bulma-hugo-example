@@ -3,48 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/blog/are-you-doing-the-right-way/</loc>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/are-you-doing-the-right-way/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/blog/simple-post-title/</loc>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/simple-post-title/</loc>
     <lastmod>2018-09-12T14:39:16+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/blog/simple-image-post/</loc>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/simple-image-post/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/blog/</loc>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>

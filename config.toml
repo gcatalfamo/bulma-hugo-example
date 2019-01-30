@@ -45,7 +45,7 @@ staticDir = "static/"
   # footer
   [params.footer]
     copyright = "Company copyright"
-    copyrightURL = "http://www.example.com"
+    copyrightURL = "https://gcatalfamo.github.io/bulma-hugo-example/"
     isSocial = false
 
     # social Icons
