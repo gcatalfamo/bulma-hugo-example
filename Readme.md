@@ -4,16 +4,26 @@
 
 #TODO
 
+### IN PROGRESS
+* blog, layout and parametrization
+* navigation
+
 ##SEO
-- meta
-- alt params for images
+* meta tags
+* H tags
+* alt params for images
+* canonical?
+* caching?
+
+##PUBLIC
+* fix all url to repository (in nav, footer, ...)
 
 ##DIRECTORY
 * fix unused but visible static files
 
 ##NAVIGATION
-* fix "is-active" attribute
-* nav generation
+* parametrize color accent for active menu item
+* nav auto-generation
 
 ##PARAMS
 - separation between config PARAMS and DATA files
