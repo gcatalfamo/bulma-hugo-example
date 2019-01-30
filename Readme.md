@@ -1,5 +1,6 @@
 #THIS IS A WORK IN PROGRESS
-=> [Live demo](https://gcatalfamo.github.io/bulma-hugo-example/public/index.html)
+
+##=> [**Live demo**](https://gcatalfamo.github.io/bulma-hugo-example/public/index.html)
 
 #TODO
 
@@ -7,7 +8,12 @@
 - meta
 - alt params for images
 
-- fix unused but visible static files
+##DIRECTORY
+* fix unused but visible static files
+
+##NAVIGATION
+* fix "is-active" attribute
+* nav generation
 
 ##PARAMS
 - separation between config PARAMS and DATA files
