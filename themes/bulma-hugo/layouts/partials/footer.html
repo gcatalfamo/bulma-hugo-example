@@ -78,6 +78,7 @@
 	</div>
 </footer>
 {{/* JS SCRIPTS */}}
+<script type="text/javascript" src="{{ "plugins/jquery/dist/jquery.min.js" | absURL}}"></script>
 {{ range .Site.Params.custom_js }}
 	<script src="{{ . | absURL }}"></script>
 {{ end }}

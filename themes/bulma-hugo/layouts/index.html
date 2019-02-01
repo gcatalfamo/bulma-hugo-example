@@ -1,11 +1,11 @@
 {{ define "main" }}
     {{ partial "header.html" . }}
-    {{/* partial "preloader.html" . */}}
+    {{ partial "preloader.html" . }}
     {{ partial "navigation.html" . }}
     {{ partial "banner.html"        (dict "context" . "data" .Site.Data.banner) }}
     {{ partial "imageAbout.html"    (dict "context" . "data" .Site.Data.imageAbout) }}
     {{ partial "hero.html"          (dict "context" . "data" .Site.Data.hero) }}
-    {{ partial "about.html"         (dict "context" . "data" .Site.Data.about) }}
+    {{ partial "cards.html"         (dict "context" . "data" .Site.Data.cards) }}
     {{ $hero_alternative := .Site.Data.hero1 }}
     {{ partial "hero.html"          (dict "context" . "data" $hero_alternative) }}
     {{ partial "counter.html"       (dict "context" . "data" .Site.Data.counter) }}
@@ -16,6 +16,6 @@
     {{ partial "pricing.html" . }}
     {{ partial "testimonial.html" . */}}
     {{ partial "blog.html"          (dict "context" . "data" .Site.Data.blog) }}
-    {{ partial "contact.html" . }}
+    {{ partial "contact.html"       (dict "context" . "data" .Site.Data.contact) }}
     {{ partial "footer.html" . }}
 {{ end }}

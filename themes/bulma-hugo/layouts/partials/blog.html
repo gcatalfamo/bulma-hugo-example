@@ -1,41 +1,46 @@
 {{ if .data.enable}}
-{{"<!-- Start Blog Section -->" | safeHTML}}
-<section id="blog" class="section">
-    <div class="container">
-        <div class="row">
-
-            {{"<!-- section title -->" | safeHTML}}
-            <div class="title text-center wow fadeInDown">
-                <h2> {{ with .data.heading }} {{ . }} {{ end }} <span class="color"> {{ with .data.headingSpan }} {{ . }} {{ end }} </span></h2>
-                <div class="border"></div>
-            </div>
-            {{"<!-- /section title -->" | safeHTML}}
-
-            <div class="is-clearfix">
-                {{ range .context.Data.Pages.ByPublishDate.Reverse }}
-                {{"<!-- single blog post -->" | safeHTML}}
-                <article class="col-md-4 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
-                    <div class="post-block">
-                        <div class="media-wrapper">
-                            {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-responsive">{{ end }}
+<section class="container">
+    <div class="hero-body">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="box content">
+                    <h4 class="has-text-primary">{{ with .data.heading }} {{ . }} {{ end }} {{ with .data.headingSpan }} <span class="has-text-info">{{ . }}</span>
+                    {{ end }} </span></h4>
+                    
+                    {{$section := "news"}}
+                    {{/* range where .context.Data.Pages.ByPublishDate.Reverse "Section" $section */}}
+                    {{ range .context.Data.Pages.ByPublishDate.Reverse }}
+                    <article class="post">
+                        <div class="media">
+                            <div class="media-left">
+                                <span class="tag">{{ .Section }}</span>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+                                </div>
+                            </div>
+                            <div class="media-right">
+                                <span class="has-text-danger"><i class="fa fa-comments"></i> 1</span>
+                            </div>
                         </div>
-
-                        <div class="content">
-                            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                            <p>{{ .Summary }}</p>
-                            <a class="btn btn-transparent" href="{{ .Permalink }}">Read more</a>
+                    </article>
+                    {{ end }}
+                    <article class="post">
+                        <div class="media">
+                            <div class="media-left"></div>
+                            <div class="media-content">
+                                <div class="content">
+                                </div>
+                            </div>
+                            <div class="media-right">
+                                <a href="{{ .Permalink }}">Read all news</a></p>
+                            </div>
                         </div>
-                    </div>
-                </article>
-                {{"<!-- /single blog post -->" | safeHTML}}
-                {{ end }}
-            </div>
-
-            <div class="all-post text-center">
-                <a class="btn btn-main" href="/blog">View All Post</a>
+                    </article>
+                </div>
             </div>
         </div>
     </div>
 </section>
-{{"<!-- /blog -->" | safeHTML}}
 {{ end }}

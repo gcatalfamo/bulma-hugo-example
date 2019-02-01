@@ -18,6 +18,11 @@
 ##PUBLIC
 * fix all url to repository (in nav, footer, ...)
 
+##BLOG PAGES
+* summary length
+* urls
+* categories
+
 ##DIRECTORY
 * fix unused but visible static files
 

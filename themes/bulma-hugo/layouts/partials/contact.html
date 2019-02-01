@@ -1,76 +1,59 @@
-{{ if .Site.Data.contact.enable }}
-{{"<!-- Srart Contact Us -->" | safeHTML}}
-<section id="contact-us" class="contact-us section-bg">
-    <div class="container">
-        <div class="row">
-
-            {{"<!-- section title -->" | safeHTML}}
-            <div class="title text-center wow fadeIn" data-wow-duration="500ms">
-                <h2>{{ with .Site.Data.contact.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.contact.headingSpan }} {{ . }} {{ end }}</span></h2>
-                <div class="border"></div>
-            </div>
-            {{"<!-- /section title -->" | safeHTML}}
-
-            {{"<!-- Contact Details -->" | safeHTML}}
-            <div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
-                {{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}
-                {{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}
-                <div class="contact-details">
-                    {{ range .Site.Data.contact.contactDetails }}
-                    <div class="con-info clearfix">
-                        <i class="{{ .icon }}"></i>
-                        <span>{{ .info }}</span>
+{{ if .data.enable }}
+{{if .data.bgImage}}
+<section class="" style='background-image: url("{{ .data.bgImage | absURL }}")'>
+{{else}}
+<section class="hero {{.data.bgStyle}}">
+{{end}}
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <p class="title {{.data.txtColor}}">{{.data.heading}}</p>
+            <p class="subtitle {{.data.txtColor}}">{{.data.content}}</p>
+            <form>
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input" type="text" placeholder="Name">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input" type="email" placeholder="Email">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </p>
+                        </div>
                     </div>
-                    {{ end }}
                 </div>
-            </div>
-
-            {{"<!-- Contact Form -->" | safeHTML}}
-            <div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <form id="contact-form" method="post" action="sendmail.php" role="form">
-
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+            
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Message us"></textarea>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                </div>
+            
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-warning">
+                                    Send message
+                                </button>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
-                    </div>
-
-                    <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
-                    </div>
-
-                    <div id="mail-success" class="success">
-                        Thank you. The Mailman is on His Way :)
-                    </div>
-
-                    <div id="mail-fail" class="error">
-                        Sorry, don't know what happened. Try later :(
-                    </div>
-
-                    <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
-                    </div>
-
-                </form>
-            </div>
-
+                </div>
+            </form>
         </div>
     </div>
 
-    {{ if .Site.Data.contact.enable_maps }}
-    {{"<!-- Google Map -->" | safeHTML}}
-    <div class="google-map">
-        <div id="map-canvas" {{ with .Site.Data.contact.mapLatitude }} data-latitude="{{ . }}" {{ end }} 
-        {{ with .Site.Data.contact.mapLongitude }} data-longitude="{{ . }}" {{ end }}></div>
-    </div>
-    {{ end }}
-
 </section>
-{{"<!-- /contact -->" | safeHTML}}
 {{ end }}

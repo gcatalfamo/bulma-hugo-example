@@ -1,35 +1,37 @@
-<section class="hero is-small is-dark">
+<section class="hero {{ .Site.Params.menu.navStyle}}">
     <div class="hero-head">
         <nav class="navbar is-transparent">
             <div class="container">
                 <div class="navbar-brand">
-                    {{/* LOGO */}}
-                    <a class="navbar-item">
-                        <img src="{{ .Site.Params.logo | absURL }}" alt="Logo">
+                    <a class="navbar-item" href="{{ .Site.BaseURL }}">
+                        {{ if .Site.Params.menu.brandLogo}}
+                        <img src="{{ .Site.Params.menu.brandLogo | absURL }}" alt="Logo">
+                        {{ else }}
+                        <strong>{{ .Site.Params.menu.brandName}}</strong>
+                        {{ end }}
                     </a>
-                    {{/* /LOGO */}}
-                    <span class="navbar-burger burger" data-target="navbarMenuHeroB">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
+                    <a role="button" class="navbar-burger" data-target="navbarMenuHeroB" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
                 </div>
                 <div id="navbarMenuHeroB" class="navbar-menu">
                     <div class="navbar-end">
-                        {{ range $.Site.Menus.nav }}
+                        {{ range .Site.Menus.nav }}
                         {{ if eq .Weight 99 }}
                         <span class="navbar-item">
                             <a class="button is-info is-inverted" href="{{ $.Site.BaseURL }}{{ .URL }}">
-                                <span class="icon">
-                                    <i class="fab fa-github"></i>
-                                </span>
                                 <span>{{ .Name }}</span>
+                                <span class="icon">
+                                    <i class="{{ $.Site.Params.menu.navCtaIcon}}"></i>
+                                </span>
                             </a>
                         </span>
                         {{ else }}
                             {{ $currentPage := $.Permalink }}
                             {{ $lastUrlElement := index (last 1 (split (delimit (split $currentPage "/") "," "") ",")) 0 }}
-                        <a class='navbar-item{{if eq $lastUrlElement .URL }} has-text-weight-bold has-text-warning{{end}}' href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
+                            <a class='navbar-item{{if eq $lastUrlElement .URL }} {{ $.Site.Params.menu.activeStyle}}{{end}}' href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
                         {{ end }}
                         {{ end }}
                     </div>
