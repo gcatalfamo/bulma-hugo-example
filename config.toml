@@ -7,25 +7,25 @@ theme = "bulma-hugo"
 themesDir = "themes/"
 title = "Bulma + Hugo sample website"
 [[menu.nav]]
-name = "Repo"
-url = "https://github.com/gcatalfamo/bulma-hugo-example"
-weight = 5
-[[menu.nav]]
-URL = "contact-us"
-name = "Call to action"
-weight = 6
-[[menu.nav]]
-URL = "blog"
-name = "Blog"
-weight = 4
+URL = "guides"
+name = "Guides"
+weight = 2
 [[menu.nav]]
 URL = "news"
 name = "News"
 weight = 3
 [[menu.nav]]
-URL = "guides"
-name = "Guides"
-weight = 2
+URL = "blog"
+name = "Blog"
+weight = 4
+[[menu.nav]]
+URL = "contact-us"
+name = "Call to action"
+weight = 6
+[[menu.nav]]
+name = "Repo"
+url = "https://github.com/gcatalfamo/bulma-hugo-example"
+weight = 5
 [params]
 author = "CUSTOM author"
 description = "CUSTOM theme"
