@@ -6,6 +6,7 @@ summaryLength = 10
 theme = "bulma-hugo-theme"
 themesDir = "themes/"
 title = "Bulma + Hugo sample website"
+
 [[menu.nav]]
 name = "GH Repo"
 url = "https://github.com/gcatalfamo/bulma-hugo-example"
@@ -26,6 +27,7 @@ weight = 4
 URL = "contact-us"
 name = "Call to action"
 weight = 6
+
 [params]
 author = "CUSTOM author"
 description = "CUSTOM theme"
@@ -62,6 +64,7 @@ activeStyle = "has-text-weight-bold has-text-warning"
 brandName = "YOUR BRAND HERE"
 navCtaIcon = "fab fa-github"
 navStyle = "is-small is-dark"
+menuAccent = "Call to action"
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
