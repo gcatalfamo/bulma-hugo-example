@@ -3,7 +3,7 @@ dataDir = "data/"
 languageCode = "en-us"
 staticDir = "static/"
 summaryLength = 10
-theme = "bulma-hugo"
+theme = "bulma-hugo-theme"
 themesDir = "themes/"
 title = "Bulma + Hugo sample website"
 [[menu.nav]]
