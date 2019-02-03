@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bulma &#43; Hugo sample website</title>
-    <link>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/</link>
+    <link>https://gcatalfamo.github.io/bulma-hugo-example/categories/</link>
     <description>Recent content in Categories on Bulma &#43; Hugo sample website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Sep 2018 14:39:16 +0600</lastBuildDate>
     
-	<atom:link href="https://gcatalfamo.github.io/bulma-hugo-example/public/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gcatalfamo.github.io/bulma-hugo-example/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cat 1</title>
-      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-1/</link>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/categories/cat-1/</link>
       <pubDate>Sat, 15 Sep 2018 14:39:16 +0600</pubDate>
       
-      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-1/</guid>
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/categories/cat-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cat 2</title>
-      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-2/</link>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/categories/cat-2/</link>
       <pubDate>Sat, 15 Sep 2018 14:39:16 +0600</pubDate>
       
-      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-2/</guid>
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/categories/cat-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cat 3</title>
-      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-3/</link>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/categories/cat-3/</link>
       <pubDate>Sat, 15 Sep 2018 14:39:16 +0600</pubDate>
       
-      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-3/</guid>
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/categories/cat-3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cat 4</title>
-      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-4/</link>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/categories/cat-4/</link>
       <pubDate>Sat, 15 Sep 2018 08:39:16 +0000</pubDate>
       
-      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-4/</guid>
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/categories/cat-4/</guid>
       <description></description>
     </item>
     
