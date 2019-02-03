@@ -1,8 +1,7 @@
-#THIS IS A WORK IN PROGRESS
+### THIS IS A WORK IN PROGRESS
+## => [**Live demo**](https://gcatalfamo.github.io/bulma-hugo-example/public/index.html)
 
-##=> [**Live demo**](https://gcatalfamo.github.io/bulma-hugo-example/public/index.html)
-
-#TODO
+# TODO
 
 ## HOME PAGE
 * params for blog and footer
@@ -11,7 +10,7 @@
 ## LIST PAGES
 * todo
 
-##SEO
+## SEO
 * fix favicon
 * meta tags
 * H tags
@@ -19,16 +18,16 @@
 * canonical?
 * caching?
 
-##PUBLIC
-* fix all url to repository (in nav, footer, ...)
+## PUBLIC
+- fix all url to repository (in nav, footer, ...)
 
-##DIRECTORY
+## DIRECTORY
 * fix unused but visible static files
 
-##NAVIGATION
+## NAVIGATION
 * parametrize color accent for active menu item
 * nav auto-generation
 
-##PARAMS
+## PARAMS
 - separation between config PARAMS and DATA files
 - parametrize index.html (how?) -> dynamically compose homepage and data.enable should become useless
