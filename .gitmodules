@@ -1,0 +1,3 @@
+[submodule "themes/bulma-hugo"]
+	path = themes/bulma-hugo
+	url = https://github.com/gcatalfamo/bulma-hugo
