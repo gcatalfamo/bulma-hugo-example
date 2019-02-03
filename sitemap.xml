@@ -66,6 +66,13 @@
   </url>
   
   <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/news/new-url/</loc>
+    <lastmod>2018-09-12T08:51:12+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://gcatalfamo.github.io/bulma-hugo-example/blog/simple-post-title/</loc>
     <lastmod>2018-09-12T14:39:16+06:00</lastmod>
     <changefreq>monthly</changefreq>

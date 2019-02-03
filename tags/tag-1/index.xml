@@ -29,5 +29,18 @@
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
+    <item>
+      <title>News 1</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/news/new-url/</link>
+      <pubDate>Wed, 12 Sep 2018 08:51:12 +0000</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/news/new-url/</guid>
+      <description>&lt;h2 id=&#34;title&#34;&gt;Title&lt;/h2&gt;
+
+&lt;h4 id=&#34;wordcount-readingtime-summary&#34;&gt;{{.WordCount}} - {{.ReadingTime}} - {{.Summary}}&lt;/h4&gt;
+
+&lt;p&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
