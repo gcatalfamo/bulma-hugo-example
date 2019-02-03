@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bulma &#43; Hugo sample website</title>
+    <link>https://gcatalfamo.github.io/bulma-hugo-example/public/</link>
+    <description>Recent content on Bulma &#43; Hugo sample website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Sep 2018 14:39:16 +0600</lastBuildDate>
+    
+	<atom:link href="https://gcatalfamo.github.io/bulma-hugo-example/public/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>News 3</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/3_newstitle/</link>
+      <pubDate>Sat, 15 Sep 2018 14:39:16 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/3_newstitle/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>News 4</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/4_another-news/</link>
+      <pubDate>Sat, 15 Sep 2018 14:39:16 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/4_another-news/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>News 5</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/5_newstitle5/</link>
+      <pubDate>Sat, 15 Sep 2018 14:39:16 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/5_newstitle5/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>News 6</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/6_newstitle6/</link>
+      <pubDate>Sat, 15 Sep 2018 14:39:16 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/6_newstitle6/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>Guide 3</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/guides/guide3/</link>
+      <pubDate>Fri, 14 Sep 2018 14:39:16 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/guides/guide3/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>Guide 2</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/guides/guide2/</link>
+      <pubDate>Thu, 13 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/guides/guide2/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>News 2</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/2_news/</link>
+      <pubDate>Thu, 13 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/2_news/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>Are You Doing the Right Way</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/are-you-doing-the-right-way/</link>
+      <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/are-you-doing-the-right-way/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>Guide 1</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/guides/guide1/</link>
+      <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/guides/guide1/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>Simple Post Title</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/simple-post-title/</link>
+      <pubDate>Wed, 12 Sep 2018 14:39:16 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/simple-post-title/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>Simple Image Post</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/simple-image-post/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/simple-image-post/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+  </channel>
+</rss>

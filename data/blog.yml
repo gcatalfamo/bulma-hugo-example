@@ -1,9 +1,0 @@
-enable : true
-heading : Latest
-headingSpan : News
-tagLight: is-light
-tagDark: is-dark
-tagRed : is-danger
-tagYellow : is-warning
-tagBlue : is-info
-tagPrimary : is-primary
