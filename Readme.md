@@ -4,11 +4,15 @@
 
 #TODO
 
-### IN PROGRESS
-* blog, layout and parametrization
-* navigation
+## HOME PAGE
+* params for blog and footer
+## SINGLE PAGES
+* todo
+## LIST PAGES
+* todo
 
 ##SEO
+* fix favicon
 * meta tags
 * H tags
 * alt params for images
@@ -17,11 +21,6 @@
 
 ##PUBLIC
 * fix all url to repository (in nav, footer, ...)
-
-##BLOG PAGES
-* summary length
-* urls
-* categories
 
 ##DIRECTORY
 * fix unused but visible static files

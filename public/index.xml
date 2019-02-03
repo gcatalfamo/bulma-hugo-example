@@ -13,10 +13,37 @@
     
     <item>
       <title>News 3</title>
-      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/newstitle3/</link>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/3_newstitle/</link>
       <pubDate>Sat, 15 Sep 2018 14:39:16 +0600</pubDate>
       
-      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/newstitle3/</guid>
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/3_newstitle/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>News 4</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/4_another-news/</link>
+      <pubDate>Sat, 15 Sep 2018 14:39:16 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/4_another-news/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>News 5</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/5_newstitle5/</link>
+      <pubDate>Sat, 15 Sep 2018 14:39:16 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/5_newstitle5/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
+    </item>
+    
+    <item>
+      <title>News 6</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/6_newstitle6/</link>
+      <pubDate>Sat, 15 Sep 2018 14:39:16 +0600</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/6_newstitle6/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
@@ -40,10 +67,10 @@
     
     <item>
       <title>News 2</title>
-      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/newstitle2/</link>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/2_news/</link>
       <pubDate>Thu, 13 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/newstitle2/</guid>
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/2_news/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
@@ -67,11 +94,11 @@
     
     <item>
       <title>News 1</title>
-      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/new-url/</link>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/news/new-url/</link>
       <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
       
-      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/new-url/</guid>
-      <description>&lt;h1 id=&#34;wordcount-summary&#34;&gt;{{.WordCount}} - {{.Summary}}&lt;/h1&gt;
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/news/new-url/</guid>
+      <description>&lt;h1 id=&#34;wordcount-readingtime-summary&#34;&gt;{{.WordCount}} - {{.ReadingTime}} - {{.Summary}}&lt;/h1&gt;
 
 &lt;p&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.&lt;/p&gt;</description>
     </item>
