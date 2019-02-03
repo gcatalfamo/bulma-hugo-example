@@ -1,118 +1,64 @@
-#CONFIG FILE
-#hugo config | grep emoji
 baseURL = "https://gcatalfamo.github.io/bulma-hugo-example/public/"
-title = "Bulma + Hugo sample website"
-theme = "bulma-hugo"
-languageCode = "en-us"
-themesDir = "themes/"
 dataDir = "data/"
-
+languageCode = "en-us"
 staticDir = "static/"
-##prende static dalla main directory. Commentando fa merge con anche lo static del tema
-##in un secondo momento si può decidere cosa rendere static nel tema e cosa nel sito
-
-#assetDir = "assets/"
-##file che compaiono in static solo se chiamati via "resources.Get" (vedi footer.html)
-##se commentato gli unici assets abilitati sono quelli nel tema (default)
-
-
-#MetaDataFormat = "yaml"
-#DefaultContentLanguage = "en"
-#SectionPagesMenu = "main"
-#Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-#googleAnalytics = "UA-123456"
-#enableRobotsTXT = true
-#disableLiveReload = true
-summaryLength= 10 #default is (70)
-#enableInlineShortcodes = true
-
-#[permalinks]
-  #posts = "/:year/:month/:title/"
-
-# Site params
+summaryLength = 10
+theme = "bulma-hugo"
+themesDir = "themes/"
+title = "Bulma + Hugo sample website"
+[[menu.nav]]
+URL = "contact-us"
+name = "Call to action"
+weight = 5
+[[menu.nav]]
+URL = "blog"
+name = "Blog"
+weight = 4
+[[menu.nav]]
+URL = "news"
+name = "News"
+weight = 3
+[[menu.nav]]
+URL = "guides"
+name = "Guides"
+weight = 2
 [params]
-  home= "Home"
-  logo = "images/logo.png"
-  gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-  description = "CUSTOM theme"
-  author = "CUSTOM author"
-  #googleAnalitycsID = "Your ID"
-  # Custom CSS or JS taken from "static"
-  #custom_css = ["css/custom.css"]
-  #custom_js = ["js/custom.js"]
-
-  [params.menu]
-    activeStyle = "has-text-weight-bold has-text-warning"
-    navStyle = "is-small is-dark"
-    navCtaIcon = "fab fa-github"
-    #brandLogo = "images/logo.png" #UNCOMMENT TO SHOW LOGO
-    ## OR ## one or the other
-    brandName = "YOUR BRAND HERE"
-
-  # footer
-  [params.footer]
-    copyright = "Company copyright"
-    copyrightURL = "https://gcatalfamo.github.io/bulma-hugo-example/"
-    isSocial = false
-
-    # social Icons
-    ### NOT YET USED ###
-    [[params.footer.socialIcon]]
-    icon = "tf-ion-social-facebook"
-    url = "#"
-    
-    [[params.footer.socialIcon]]
-    icon = "tf-ion-social-twitter"
-    url = "#"
-    
-    [[params.footer.socialIcon]]
-    icon = "tf-ion-social-google-outline"
-    url = "#"
-    
-    [[params.footer.socialIcon]]
-    icon = "tf-ion-social-youtube"
-    url = "#"
-    
-    [[params.footer.socialIcon]]
-    icon = "tf-ion-social-linkedin"
-    url = "#"
-    
-    [[params.footer.socialIcon]]
-    icon = "tf-ion-social-dribbble-outline"
-    url = "#"
-    
-    [[params.footer.socialIcon]]
-    icon = "tf-ion-social-pinterest-outline"
-    url = "#"
-
+author = "CUSTOM author"
+description = "CUSTOM theme"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+home = "Home"
+logo = "images/logo.png"
+[params.footer]
+copyright = "Company copyright"
+copyrightURL = "https://gcatalfamo.github.io/bulma-hugo-example/"
+isSocial = false
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-facebook"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-twitter"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-google-outline"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-youtube"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-linkedin"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-dribbble-outline"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-pinterest-outline"
+url = "#"
+[params.menu]
+activeStyle = "has-text-weight-bold has-text-warning"
+brandName = "YOUR BRAND HERE"
+navCtaIcon = "fab fa-github"
+navStyle = "is-small is-dark"
 [sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
-
-# Menu
-[menu]
-  [[menu.nav]]
-    name = "About Us"
-    URL = "about"
-    weight = 2
-
-  [[menu.nav]]
-    name = "Guides"
-    URL = "guides"
-    weight = 3
-
-  [[menu.nav]]
-    name = "News"
-    URL = "news"
-    weight = 4
-
-  [[menu.nav]]
-    name = "Blog"
-    URL = "blog"
-    weight = 5
-
-  [[menu.nav]]
-    name = "Call to action"
-    URL = "contact-us"
-    weight = 99
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
