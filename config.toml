@@ -21,10 +21,6 @@ weight = 4
 [[menu.nav]]
 URL = "contact-us"
 name = "Call to action"
-weight = 6
-[[menu.nav]]
-name = "Repo"
-url = "https://github.com/gcatalfamo/bulma-hugo-example"
 weight = 5
 [params]
 author = "CUSTOM author"
