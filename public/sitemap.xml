@@ -3,7 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/news/newstitle3/</loc>
+    <lastmod>2018-09-15T14:39:16+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/guides/guide3/</loc>
+    <lastmod>2018-09-14T14:39:16+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/guides/guide2/</loc>
+    <lastmod>2018-09-13T12:52:36+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/news/newstitle2/</loc>
+    <lastmod>2018-09-13T12:52:36+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/are-you-doing-the-right-way/</loc>
+    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/guides/guide1/</loc>
+    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/new-url/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -24,6 +66,19 @@
   </url>
   
   <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/articoli/</loc>
+    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/blog/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,13 +86,49 @@
   </url>
   
   <url>
-    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/</loc>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/</loc>
+    <lastmod>2018-09-15T14:39:16+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/</loc>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/</loc>
+    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/guides/</loc>
+    <lastmod>2018-09-14T14:39:16+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/tags/ipsum/</loc>
+    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/tags/lorem/</loc>
+    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/news/</loc>
+    <lastmod>2018-09-15T14:39:16+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/notizie/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
@@ -45,6 +136,7 @@
   
   <url>
     <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/tags/</loc>
+    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
