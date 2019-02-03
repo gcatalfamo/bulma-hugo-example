@@ -38,5 +38,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Cat 4</title>
+      <link>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-4/</link>
+      <pubDate>Sat, 15 Sep 2018 08:39:16 +0000</pubDate>
+      
+      <guid>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-4/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

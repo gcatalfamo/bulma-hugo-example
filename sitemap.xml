@@ -25,7 +25,7 @@
   
   <url>
     <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/news/6_newstitle6/</loc>
-    <lastmod>2018-09-15T14:39:16+06:00</lastmod>
+    <lastmod>2018-09-15T08:39:16+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -116,6 +116,13 @@
   <url>
     <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-3/</loc>
     <lastmod>2018-09-15T14:39:16+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gcatalfamo.github.io/bulma-hugo-example/public/categories/cat-4/</loc>
+    <lastmod>2018-09-15T08:39:16+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
