@@ -1,4 +1,4 @@
-baseURL = "https://gcatalfamo.github.io/bulma-hugo-example/public/"
+baseURL = "https://gcatalfamo.github.io/bulma-hugo-example/"
 dataDir = "data/"
 languageCode = "en-us"
 staticDir = "static/"
