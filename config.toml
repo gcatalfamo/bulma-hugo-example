@@ -6,6 +6,7 @@ summaryLength = 10
 theme = "bulma-hugo-theme"
 themesDir = "themes/"
 title = "Bulma + Hugo sample website"
+enableRobotsTXT = true
 [[menu.nav]]
 URL = "guides"
 name = "Guides"
@@ -26,9 +27,9 @@ weight = 5
 [params]
 author = "CUSTOM author"
 description = "CUSTOM theme"
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 home = "Home"
 logo = "images/logo.png"
+csv = "static/Book1.csv"
 [params.footer]
 copyright = "Company copyright"
 copyrightURL = "https://gcatalfamo.github.io/bulma-hugo-example/"
