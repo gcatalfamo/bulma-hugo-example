@@ -8,6 +8,10 @@ themesDir = "themes/"
 title = "Bulma + Hugo sample website"
 enableRobotsTXT = true
 [[menu.nav]]
+URL = "about"
+name = "About Us"
+weight = 1
+[[menu.nav]]
 URL = "guides"
 name = "Guides"
 weight = 2
